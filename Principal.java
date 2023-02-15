@@ -42,12 +42,11 @@ public class Principal {
         System.out.println("2 - Remover Veículo: ");
         System.out.println("3 - Visualizar Veículos: ");
         System.out.println("4 - Conferir Disponibilidade: ");
-        System.out.println("5 - Cadastrar Cliente: ");
-        System.out.println("6 - Remover Cliente: ");
-        System.out.println("7 - Cancelar Reservar: ");
-        System.out.println("8 - Gerar Relatório: ");
-        System.out.println("9 - Menu inicial: ");
-        System.out.println("10 - Salvar: ");
+        System.out.println("5 - Remover Cliente: ");
+        System.out.println("6 - Cancelar Reserva: ");
+        System.out.println("7 - Gerar Relatório: ");
+        System.out.println("8 - Menu inicial: ");
+        System.out.println("9 - Salvar: ");
         System.out.println("0 - Sair: ");
 
         System.out.println("\nDigite a opção desejada: ");
@@ -150,21 +149,18 @@ public class Principal {
                 conferirDisponibilidade();
                 break;
             case 5:
-                cadastrarCliente();
-                break;
-            case 6:
                 removerCliente();
                 break;
-            case 7:
+            case 6:
                 cancelarReserva();
                 break;
-            case 8:
+            case 7:
                 gerarRelatorio();
                 break;
-            case 9:
+            case 8:
                  escolheMenu();
                  break;    
-            case 10:
+            case 9:
                 salvar();
                 break;
             default:
